@@ -4,26 +4,13 @@ import React from "react";
 const Navbar = () => {
     return (
         <div >
-            <nav className="navbar bg-light">
+            <nav className="navbar light" style={{ background: "yellow"}}>
                 <div className="container">
                     <a className="navbar-brand" href="#">
-                        <img src="https://cdn-icons-png.flaticon.com/512/263/263100.png" alt="Bootstrap" width="30" height="24" />
+                        <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png" alt="Bootstrap" width="40" height="30"/>
                     </a>
-                    <ul>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
                 </div>
             </nav>
-
         </div>
     );
 };

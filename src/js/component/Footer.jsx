@@ -4,10 +4,10 @@ import React from "react";
 const Footer = () => {
     return (
         <div >
-            <nav className="navbar bg-light">
+            <nav className="navbar light" style={{ background: "yellow" }}>
                 <div className="container">
                     <a className="navbar-brand" href="#">
-                        <img src="https://cdn-icons-png.flaticon.com/512/263/263100.png" alt="Bootstrap" width="30" height="24"/>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png" alt="Bootstrap" width="30" height="24"/>
                     </a>
                 </div>
             </nav>

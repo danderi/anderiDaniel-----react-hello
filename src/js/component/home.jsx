@@ -5,33 +5,37 @@ import Navbar from "./Navbar.jsx";
 import Card from "./Card.jsx";
 import Footer from "./Footer.jsx";
 
+import homerImp from "../../img/homero impertinente.jpg";
+import homerDoh from "../../img/homero dogh.jpg";
+import homerWoho from "../../img/homero wohoo.jpg";
+
 const cards = [
 {
-	image : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fhomer-simpson-funny-pictures&psig=AOvVaw2kW55zY5sp_JI9NKnOfy6z&ust=1709945846703000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCU1YC744QDFQAAAAAdAAAAABAJ",
+	image : homerImp,
 	title : "Homero Impertinente",
 	description : "Homero está impertinente porque quiere cerveza" 
 },
 {
-	image : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hollywoodreporter.com%2Ftv%2Ftv-news%2Fsimpsons-puts-homer-deaths-door-721455%2F&psig=AOvVaw2kW55zY5sp_JI9NKnOfy6z&ust=1709945846703000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCU1YC744QDFQAAAAAdAAAAABAg",
-	title : "Homero Doughh!!",
-	description : "Homero se ha equivocado de nuevo, por eso hace -doughh!!- " 
+	image : homerDoh,
+	title : "Homero Do-hh!!",
+	description : "Homero se ha equivocado de nuevo, por eso hace -Do-hh!!- " 
 },
 {
-	image : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.abc.es%2Fplay%2Fseries%2Fnoticias%2Fabci-seria-homer-simpson-si-existiera-mundo-real-201808221834_noticia.html&psig=AOvVaw2kW55zY5sp_JI9NKnOfy6z&ust=1709945846703000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCU1YC744QDFQAAAAAdAAAAABAr",
+	image : homerWoho,
 	title : "Homero Wooohoooo!!",
 	description : "Homero tiene la razón! y está orgulloso" 
 },
 {
-	image : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcheroesrpg.fandom.com%2Fwiki%2FHomer_Simpson&psig=AOvVaw2kW55zY5sp_JI9NKnOfy6z&ust=1709945846703000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCU1YC744QDFQAAAAAdAAAAABA-",
-	title : "Homero Feliz!!",
-	description : "Homero está feliz!" 
+	image : "https://www.telegraph.co.uk/multimedia/archive/02021/si_2021698c.jpg?imwidth=960",
+	title : "Homero & Marge",
+	description : "Homero está feliz porque siempre cuenta con Marge!" 
 }
 ]
 
 //create your first component
 const Home = () => {
 	return (
-		<div >
+		<div className="container-fluid">
 			<Navbar />
 			<Jumbotron />
 			<Card cards={cards}/>
